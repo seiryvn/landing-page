@@ -3,20 +3,37 @@ body {
     padding: 0;
     
 }
+
 .one {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
 }
 .two {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 80px;
+
 }
 .three {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: center;
 }
 .four {
     background-color: #E5E7EB;
@@ -29,3 +46,71 @@ body {
 .footer {
     background-color: #1F2937;
 }
+
+.header {
+    font-weight: bold;
+    align-content: center;
+    font-size: 24px;
+}
+.right-links {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 20px;
+}
+
+.header, .right-links, .name {
+    color: #F9FAF8;
+}
+
+.name {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.text {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+
+button.register {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+}
+
+.header-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.frame {
+    width: 150px;
+    height: 150px;
+    background-color:#E5E7EB;
+    border-radius: 20px;
+}
+
+
