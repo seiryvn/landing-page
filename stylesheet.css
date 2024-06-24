@@ -48,6 +48,12 @@ body {
 }
 .footer {
     background-color: #1F2937;
+    padding: 25px;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -153,4 +159,8 @@ button.call-for-action {
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
+}
+
+* {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
