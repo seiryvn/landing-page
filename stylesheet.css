@@ -39,9 +39,12 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    padding: 80px;
+    gap: 10px;
 }
 .five {
     background-color: white;
+    padding: 80px;
 }
 .footer {
     background-color: #1F2937;
@@ -79,13 +82,19 @@ img {
     height: 250px;
 }
 
-button.register {
+button {
     background-color: #3882F6;
     color: white;
     border: 1px solid #3882F6;
-    border-radius: 4px;
-    width: 100px;
-    height: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 150px;
+    height: 37.5px;
+}
+
+button.call-for-action {
+    border: 1px solid #E5E7EB;
+
 }
 
 .header-two {
@@ -123,4 +132,25 @@ button.register {
     text-align: center;
 }
 
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
 
+.signature {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.bluebox {
+    display: flex;
+    flex-direction: row;
+    background-color:#3882F6;
+    padding: 20px 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
