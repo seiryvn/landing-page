@@ -127,11 +127,18 @@ button.call-for-action {
 .frame {
     width: 150px;
     height: 150px;
+    display: flex;
     background-color:#E5E7EB;
     border-radius: 20px;
     border: solid;
     border-color: #3882F6;
     border-width: 10px;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
 }
 
 .gallery-text {
