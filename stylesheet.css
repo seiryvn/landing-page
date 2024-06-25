@@ -5,7 +5,7 @@ body {
 }
 
 .one {
-    background-color: #1F2937;
+    background-color: #020c18;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,7 +14,7 @@ body {
     padding-left: 80px;
 }
 .two {
-    background-color: #1F2937;
+    background-color: #020c18;
     display: flex;
     flex-direction: row;
     padding-right: 80px;
@@ -25,7 +25,7 @@ body {
 
 }
 .three {
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     display: flex;
     flex-direction: column;
     padding-top: 40px;
@@ -36,18 +36,18 @@ body {
     align-items: center;
 }
 .four {
-    background-color: #E5E7EB;
+    background-color: #c4c4c4;
     display: flex;
     flex-direction: column;
     padding: 80px;
     gap: 10px;
 }
 .five {
-    background-color: white;
+    background-color: rgb(219, 219, 219);
     padding: 80px;
 }
 .footer {
-    background-color: #1F2937;
+    background-color: #020c18;
     padding: 25px;
     color: #E5E7EB;
     font-size: 18px;
@@ -61,6 +61,12 @@ body {
     align-content: center;
     font-size: 24px;
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
 .right-links {
     display: flex;
     flex-direction: row;
@@ -83,15 +89,26 @@ body {
     padding-bottom: 30px;
 }
 
-img {
-    width: 400px;
-    height: 250px;
+.image-holder {
+    width: 2500px;
+    height: 300px;
+    display: flex;
+    background-color:#E5E7EB;
+    border-radius: 20px;
+    border: solid;
+    border-color: #bfb384;
+    border-width: 10px;
+}
+.img-one {
+    width: 450px;
+    height: 300px;
+    border-radius: 11px;
 }
 
 button {
-    background-color: #3882F6;
-    color: white;
-    border: 1px solid #3882F6;
+    background-color: #bfb384;
+    color: 020c18;
+    border: 1px solid #bfb384;
     border-radius: 10px;
     font-weight: bold;
     width: 150px;
@@ -131,14 +148,14 @@ button.call-for-action {
     background-color:#E5E7EB;
     border-radius: 20px;
     border: solid;
-    border-color: #3882F6;
+    border-color: #bfb384;
     border-width: 10px;
 }
 
 .img {
     height: 150px;
     width: 150px;
-    border-radius: 20px;
+    border-radius: 11px;
 }
 
 .gallery-text {
@@ -164,7 +181,7 @@ button.call-for-action {
 .bluebox {
     display: flex;
     flex-direction: row;
-    background-color:#3882F6;
+    background-color:#020c18;
     padding: 20px 80px;
     justify-content: space-between;
     align-items: center;
